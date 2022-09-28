@@ -15,7 +15,7 @@
 }
 
 .sticky {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -80,7 +80,6 @@
   text-align: center;
   background: #0e55a7;
   color: #ffffff;
-  margin-top: 86px;
 }
 
 .notice p {
@@ -428,7 +427,7 @@
 
 .pfp-body img {
   position: absolute;
-  left: 32%;
+  left: 38%;
   top: -40px;
   border-radius: 50%;
   border: 4px solid white;
@@ -456,12 +455,12 @@
 
 .student hr {
   width: 80%;
-  margin-left: 25px;
+  margin-left: 40px;
 }
 
 .chat-button {
   margin-top: 15px;
-  margin-left: 35px;
+  margin-left: 55px;
   border-radius: 30px;
   width: 70%;
   border: 1px solid #0e55a7;
@@ -543,6 +542,7 @@
   padding: 60px 0px 60px 30px;
   border: 3px solid white;
   transition: 0.5s;
+  width: 53%;
 }
 
 .faculty-table i {
@@ -561,7 +561,7 @@
 
 .faculty-table td:first-of-type {
   border-left: none;
-  padding-right: 140px;
+  padding-right: auto;
 }
 
 .faculty-table td:last-of-type {
